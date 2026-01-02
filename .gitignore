@@ -1,17 +1,17 @@
-# dependencies
-node_modules/
-
-# build output
-dist/
+# dependencies (frontend + backend)
+**/node_modules/
 
 # environment variables
-.env
-.env.local
+**/.env
+**/.env.*
+
+# build
+dist/
+build/
 
 # logs
 npm-debug.log*
-yarn-debug.log*
 yarn-error.log*
 
-# OS files
+# OS
 .DS_Store
